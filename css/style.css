@@ -50,10 +50,9 @@ header {
 
 background-position:center;
 background-repeat: no-repeat;
-/* background-position-y: 150%; */
 background-size: cover;
 background-attachment: fixed;
-background-image:url("/img/android-header.jpg");
+background-image:url("../img/android-header.jpg");
 min-height: 250px;
 text-align: center;
 padding-top:40px;
@@ -86,7 +85,7 @@ header > p {
 }
 
 #carouselExampleAutoplaying img{
-    height: 500px;
+    height: 400px;
    
 }
 
