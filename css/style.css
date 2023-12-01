@@ -219,6 +219,29 @@ aside > h3{
 
  }
 
+.grouped_elements img{
+   
+    margin-top: 5px;
+    border-style: groove;
+    border-width: 5px;
+    max-width: 260px;
+
+}
+
+.row a{
+   
+    background-color:transparent;
+
+}
+
+
+
+#tab{
+    text-align: center;
+    font-size: 2em;
+}
+
+
 footer{
 
 background-color: var(--cor5);

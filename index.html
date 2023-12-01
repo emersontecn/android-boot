@@ -5,21 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta name="description"
+        content="Site criado com finalidades educacionais para ensinar HTML5, CSS3 e JavaScript, três tecnologias fundamentais da WEB.">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="author" content="Emerson da silva pereira">
+    <link rel="stylesheet" href="estilo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
 </head>
 
 <body>
-    
+
     <header>
         <h1>Curiosidades Da Tecnologia</h1>
         <p>Tudo aquilo que você sempre quis sobre o mundo tec em um unico lugar</p>
     </header>
-    
-<!--     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <!--     <nav class="navbar navbar-expand-lg bg-body-tertiary">
  -->
     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
         <div class="container-fluid">
@@ -40,13 +49,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Curiosidades</a>
                     </li>
-                    
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Fale conosco
                         </a>
-                        
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Whatsapp</a></li>
                             <li><a class="dropdown-item" href="#">Facebook</a></li>
@@ -56,9 +63,16 @@
                             <li><a class="dropdown-item" href="#">Instagran</a></li>
                         </ul>
                     </li>
-                </ul>
+                    <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div> -->
             </div>
-        </div>    
     </nav>
 
     <div class="container">
@@ -85,8 +99,8 @@
 
         </p>
 
-     
-            <picture>
+
+        <picture>
             <source media="(max-width: 628px  )" srcset="img/dan-droids-pq.png">
             <img src="img/dan-droids.png" alt="">
         </picture>
@@ -122,28 +136,30 @@
             <strong>Bugdroid</strong>, o novo mascote do Android.
         </p>
 
-        
+
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/carrossel1.webp" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/carrossel2.webp" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/carrossel3.jpg" class="d-block w-100" alt="...">
-              </div>
+                <div class="carousel-item active">
+                    <img src="img/carrossel1.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrossel2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrossel3.jpg" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
 
 
         <p>
@@ -222,15 +238,58 @@
             </p>
 
         </aside>
+
+
     </div>
+
+    <div class="container text-center">
+        <p id="tab">Equipe por trás do projeto</p>
+        <div class="row">
+          <div class="col">
+            <a class="grouped_elements" rel="group1"  href="img/equipe1.jfif"><img src="img/equipe1.jfif" alt=""/></a>
+
+            <a class="grouped_elements" rel="group1"  href="img/equipe2.jfif"><img src="img/equipe2.jfif" alt=""/></a>
+
+            <a class="grouped_elements" rel="group1"  href="img/equipe4.png"><img src="img/equipe4.png" alt=""/></a>
+          </div>
+          <div class="col">
+           
+          </div>
+        </div>
+      </div>
+
+
+    
+
+    <div class="container">
+         
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Gostou do Site? insira seu email e nos
+                avalie!</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Avalie</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+    </div>
+
     <footer>
-        <p>Site criado por Emerson em conjunto com o <a href="https://www.youtube.com/@CursoemVideo">CursoemVideo</a>
-        </p>
+        <p>Site criado por Emerson em conjunto com o  <a href="https://www.youtube.com/@CursoemVideo">CursoemVideo</a></p>   
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+<script src="js/jquery-1.4.3.min.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="js/script.js"></script>
+
+ 
+
 </body>
 
 </html>
