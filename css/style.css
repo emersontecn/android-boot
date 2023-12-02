@@ -84,8 +84,25 @@ header > p {
 
 }
 
+.btn-primary{
+    border-color:transparent;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.738);
+}
+
+.btn-primary:hover{
+    border-color:transparent;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.738);
+    
+}
+
+
 #carouselExampleAutoplaying img{
-    height: 400px;
+    height: 450px;
+
+    
+    border: 1px solid black;
    
 }
 
